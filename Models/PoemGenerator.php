@@ -5,7 +5,7 @@ require_once __DIR__ . '/Rule.php';
 
 class PoemGenerator {
 
-	protected $mainDescriptor = '';
+	private $mainDescriptor = '';
 
 	public function __construct($id) {
 		$this->mainDescriptor = $id;

@@ -3,7 +3,7 @@
 
 class PoemInterpreter {
 
-	protected $poem = '';
+	private $poem = '';
 
 	public function __construct($id) {
 		$this->poem = $id;

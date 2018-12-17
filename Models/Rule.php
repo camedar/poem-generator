@@ -2,7 +2,7 @@
 
 class Rule {
 
-	protected $rules = array();
+	private $rules = array();
 
 
 	public function __construct() {
