@@ -1,0 +1,7 @@
+
+<div style="width:250px;margin-left: auto;margin-right: auto">
+    <form action="<?php echo $_SERVER['PHP_SELF'] . '?poem=1'?>" method="post">
+        <input type="submit" value="Generate poem" name="submit" class="btn btn-primary" />
+    </form>
+    <span class="help-block"><?=isset($poem)?$poem:''?></span>
+</div>
